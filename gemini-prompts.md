@@ -68,7 +68,33 @@ Det nuværende profilbillede i "Om mig" er kun 400×400 px. **Upload
 
 ---
 
-## 4. OG-/social-billede (valgfrit, men pænt ved deling)
+## 4. ProfCalculator — ret forkert undertekst i billederne (fejl i original-asset)
+
+Begge ProfCalculator-billeder har underteksten **"Food ordering system"** — en
+copy-paste-fejl fra Leo's Wok i de gamle Wejeo-assets. Appen er en
+profitberegner. Ret ét billede ad gangen:
+
+**a) Upload `assets/img/profcal-card.jpg` (kortet, 500×500):**
+
+> Edit this image: replace ONLY the orange subtitle text "Food ordering
+> system" under the "ProfCalculator" title with "Restaurant profit
+> calculator" in the exact same font, size, color and position. Keep
+> everything else in the image completely unchanged.
+
+- **Gem som:** `assets/img/profcal-card.jpg` (overskriv, 500×500, < 100 KB)
+
+**b) Upload `assets/img/profcal-detail.jpg` (lightbox-banneret, 1280×720):**
+
+> Edit this image: replace ONLY the orange subtitle text "Food ordering
+> system" under the "ProfCalculator" title with "Restaurant profit
+> calculator" in the exact same font, size, color and position. Keep
+> everything else in the image completely unchanged.
+
+- **Gem som:** `assets/img/profcal-detail.jpg` (overskriv, 1280 px bred, < 300 KB)
+
+---
+
+## 5. OG-/social-billede (valgfrit, men pænt ved deling)
 
 Bruges når sitet deles på LinkedIn m.m. Lige nu bruges et app-screenshot som
 midlertidigt og:image.
