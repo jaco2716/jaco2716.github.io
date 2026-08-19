@@ -271,43 +271,43 @@
      ---------------------------------------------------------- */
   const DETAILS = {
     profcal: {
-      img: "assets/img/profcal-detail.jpg",
+      img: "assets/img/portfolio/profcal-detail.jpg",
       alt: "ProfCalculator — appens skærme med menuer, ingredienser og profitberegning",
       title: "ProfCalculator",
       text: "Profitberegner til restauranter — ingredienser, menuer, moms og timeløn regnes om til præcis profit pr. ret. Udgivet på App Store & Google Play.",
     },
     walldodge: {
-      img: "assets/img/walldodge-detail.jpg",
+      img: "assets/img/portfolio/walldodge-detail.jpg",
       alt: "Wall Dodge — gameplay og menu fra mobilspillet",
       title: "Wall Dodge",
       text: "Mobilspil: rotér figuren og undvig væggene — \"Rotate to Win\". Udgivet til iOS & Android.",
     },
     leoswok: {
-      img: "assets/img/leoswok-detail.jpg",
+      img: "assets/img/portfolio/leoswok-detail.jpg",
       alt: "Leo's Wok — madbestilling med menu og kurv",
       title: "Leo's Wok",
       text: "Komplet madbestillingssystem til restaurant — digital menu, kurv og ordrestyring direkte fra gæstens telefon.",
     },
     chiangmai: {
-      img: "assets/img/chiangmai-detail.jpg",
+      img: "assets/img/portfolio/chiangmai-detail.jpg",
       alt: "Chiang Mai Køge — thairestaurantens app",
       title: "Chiang Mai Køge",
       text: "App til thairestauranten Chiang Mai i Køge — menu, information og bestilling til iOS & Android.",
     },
     wejeosmart: {
-      img: "assets/img/wejeosmart-detail.jpg",
+      img: "assets/img/portfolio/wejeosmart-detail.jpg",
       alt: "Wejeo Smart — enheder, login og tidsplaner i smart home-appen",
       title: "Wejeo Smart",
       text: "Smart home-app til Wejeos smart-stik — styring af enheder, tidsplaner og automatisering i hjemmet.",
     },
     sejerslev: {
-      img: "assets/img/sejerslev-detail.jpg",
+      img: "assets/img/portfolio/sejerslev-detail.jpg",
       alt: "Sejerslev — live-målinger af gasflow og tryk i svejseappen",
       title: "Sejerslev",
       text: "AI-drevet svejseapp — live-overvågning af gasflow, tryk og temperatur fra svejseudstyret, med grafer og historik.",
     },
     abone: {
-      img: "assets/img/abone-detail.jpg",
+      img: "assets/img/portfolio/abone-detail.jpg",
       alt: "AB one — medlemsprofil med aktiviteter og nøgletal",
       title: "AB one",
       text: "Medlemsapp til erhvervsnetværk — profil, medlemmer, møder og tracking af omsætning og anbefalinger.",

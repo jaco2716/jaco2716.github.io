@@ -317,8 +317,16 @@ a { color: var(--accent-bright); }
 }
 .hero__social a:hover { color: var(--ink); transform: translateY(-2px); }
 
-/* Portrait placeholder — swap for the real hero image later */
 .hero__portrait { justify-self: center; width: 100%; max-width: 400px; }
+.hero__img {
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+  border: 1px solid var(--hairline);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.55);
+}
+
+/* Portrait placeholder (unused once the real hero image is in) */
 .portrait-placeholder {
   aspect-ratio: 4 / 5;
   border-radius: 24px;

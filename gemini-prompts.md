@@ -6,7 +6,9 @@ resultater. Under hver prompt står, hvor filen skal lande, og hvad den erstatte
 
 ---
 
-## 1. Hero-billede (VIGTIGST — erstatter pladsholderen i hero-sektionen)
+## 1. Hero-billede — ✅ FÆRDIG (ligger som `assets/img/profile/hero-jacob.jpg`)
+
+Behold prompten herunder, hvis billedet skal genereres om:
 
 **Upload dit nyeste portrætbillede sammen med prompten.** Undgå at bede om
 "studio backdrop", "rim light" og krydsede arme — det er dét, der giver det
@@ -30,12 +32,10 @@ Ser det stadig for opstillet ud, så prøv varianter af posen i samme prompt:
 "leaning slightly against a dark wall", "adjusting his watch strap while
 looking at the camera" eller "sitting on a stool, forearms resting on knees".
 
-- **Gem som:** `assets/img/hero-jacob.jpg` (maks 1600 px høj, komprimér til < 300 KB
-  — fx `sips --resampleHeight 1600 -s format jpeg -s formatOptions 80 <in> --out assets/img/hero-jacob.jpg`)
-- **Erstatter:** `.portrait-placeholder`-boksen i `index.html` (hero-sektionen).
-  Byt `<div class="portrait-placeholder">…</div>` ud med
-  `<img src="assets/img/hero-jacob.jpg" alt="Jacob F. Welin" class="hero__img">`
-  — bed Claude om at gøre det, når billedet ligger klar.
+- **Gem som:** `assets/img/profile/hero-jacob.jpg` (maks 1600 px høj, komprimér til < 300 KB
+  — fx `sips --resampleHeight 1600 -s format jpeg -s formatOptions 80 <in> --out assets/img/profile/hero-jacob.jpg`)
+- **Erstatter:** overskriv bare filen — `index.html` viser den allerede via
+  `.hero__img`.
 
 ---
 
@@ -55,10 +55,10 @@ ind i telefonerne i stedet for at opfinde UI.
 > orange tones. Matches a series of minimal dark app-showcase cards. No
 > watermarks, no extra text.
 
-- **Gem som:** `assets/img/camino-card.jpg` (500×500, < 100 KB)
+- **Gem som:** `assets/img/portfolio/camino-card.jpg` (500×500, < 100 KB)
 - **Erstatter:** pladsholder-boksen (`.card__media--placeholder`) i Camino
   Nomad-kortet i `index.html`.
-- **Valgfrit ekstra:** et bredt 16:9-banner i samme stil → `assets/img/camino-detail.jpg`,
+- **Valgfrit ekstra:** et bredt 16:9-banner i samme stil → `assets/img/portfolio/camino-detail.jpg`,
   så Camino også får et lightbox-billede som de andre projekter.
 
 ---
@@ -73,7 +73,7 @@ Det nuværende profilbillede i "Om mig" er kun 400×400 px. **Upload
 > resolution, sharpness and clean up compression artifacts. Photorealistic,
 > no beautification, no changes to likeness.
 
-- **Gem som:** `assets/img/profil-jacob.jpg` (overskriv den nuværende; maks
+- **Gem som:** `assets/img/profile/profil-jacob.jpg` (overskriv den nuværende; maks
   800×800, < 150 KB)
 
 ---
@@ -84,23 +84,23 @@ Begge ProfCalculator-billeder har underteksten **"Food ordering system"** — en
 copy-paste-fejl fra Leo's Wok i de gamle Wejeo-assets. Appen er en
 profitberegner. Ret ét billede ad gangen:
 
-**a) Upload `assets/img/profcal-card.jpg` (kortet, 500×500):**
+**a) Upload `assets/img/portfolio/profcal-card.jpg` (kortet, 500×500):**
 
 > Edit this image: replace ONLY the orange subtitle text "Food ordering
 > system" under the "ProfCalculator" title with "Restaurant profit
 > calculator" in the exact same font, size, color and position. Keep
 > everything else in the image completely unchanged.
 
-- **Gem som:** `assets/img/profcal-card.jpg` (overskriv, 500×500, < 100 KB)
+- **Gem som:** `assets/img/portfolio/profcal-card.jpg` (overskriv, 500×500, < 100 KB)
 
-**b) Upload `assets/img/profcal-detail.jpg` (lightbox-banneret, 1280×720):**
+**b) Upload `assets/img/portfolio/profcal-detail.jpg` (lightbox-banneret, 1280×720):**
 
 > Edit this image: replace ONLY the orange subtitle text "Food ordering
 > system" under the "ProfCalculator" title with "Restaurant profit
 > calculator" in the exact same font, size, color and position. Keep
 > everything else in the image completely unchanged.
 
-- **Gem som:** `assets/img/profcal-detail.jpg` (overskriv, 1280 px bred, < 300 KB)
+- **Gem som:** `assets/img/portfolio/profcal-detail.jpg` (overskriv, 1280 px bred, < 300 KB)
 
 ---
 

@@ -16,7 +16,9 @@ Open `index.html` in a browser. That's it — no server or install required.
 index.html            single page, anchor navigation
 css/style.css         design tokens + all styling (dark petrol theme)
 js/main.js            canvas particle background, GSAP animations, lightbox, nav
-assets/img/           optimized images (each < 300 KB)
+assets/img/profile/   hero + about portraits
+assets/img/mit-edc/   Mit EDC app screenshots
+assets/img/portfolio/ project cards (*-card) + lightbox banners (*-detail)
 gemini-prompts.md     prompts for AI images still to be generated (hero image,
                       Camino Nomad card, OG image) — placeholders in the page
                       mark where they go
