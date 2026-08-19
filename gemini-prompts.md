@@ -8,17 +8,27 @@ resultater. Under hver prompt står, hvor filen skal lande, og hvad den erstatte
 
 ## 1. Hero-billede (VIGTIGST — erstatter pladsholderen i hero-sektionen)
 
-**Upload dit profilbillede (`../1689702552931.jpeg`) sammen med prompten.**
+**Upload dit nyeste portrætbillede sammen med prompten.** Undgå at bede om
+"studio backdrop", "rim light" og krydsede arme — det er dét, der giver det
+syntetiske stock-foto-look. Prompten her går efter et naturligt, dokumentarisk
+udtryk på næsten sort baggrund (den smelter sammen med sitets #061418-grund):
 
-> Professional portrait photo edit of the man in the uploaded photo. Keep his
-> face, glasses, hair and likeness EXACTLY as in the original — do not change
-> his facial features. Re-light and re-stage the scene: he stands relaxed,
-> upper body, arms lightly crossed, wearing a dark navy blazer over an open
-> light shirt. Background: deep dark petrol/teal studio backdrop (#0D2B32)
-> with a soft teal rim light from the left (#4FA3B2) and a very subtle warm
-> copper glow from the right (#C98A54). Moody, high-end tech-portfolio look,
-> shallow depth of field, crisp focus on the face. Vertical 4:5 crop,
-> photorealistic, high resolution.
+> Photo edit of the man in the uploaded photo. Keep his face, glasses, hair
+> and likeness EXACTLY as in the original — do not change or beautify his
+> facial features. Change the setting: a candid, editorial photograph, NOT a
+> posed studio portrait. He stands at a slight angle to the camera, body
+> relaxed, one hand loosely in his trouser pocket, the other hanging
+> naturally; genuine relaxed expression. Wardrobe as in the original photo.
+> Background: matte near-black charcoal (#0A0E10), softly out of focus, no
+> visible backdrop texture. Lighting: one large soft window-like key light
+> from the side, gentle natural falloff into shadow — no colored rim lights,
+> no teal or blue tint. Natural skin texture with visible pores, very subtle
+> film grain, shot on an 85mm lens at f/2. Vertical 4:5 crop, photorealistic,
+> high resolution.
+
+Ser det stadig for opstillet ud, så prøv varianter af posen i samme prompt:
+"leaning slightly against a dark wall", "adjusting his watch strap while
+looking at the camera" eller "sitting on a stool, forearms resting on knees".
 
 - **Gem som:** `assets/img/hero-jacob.jpg` (maks 1600 px høj, komprimér til < 300 KB
   — fx `sips --resampleHeight 1600 -s format jpeg -s formatOptions 80 <in> --out assets/img/hero-jacob.jpg`)
