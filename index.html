@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jacob F. Welin · Senior App Developer</title>
+  <meta name="description" content="Portefølje for Jacob F. Welin — Senior App Developer. Fullstack: React Native, .NET, SQL Server og AI-tooling. Manden bag Mit EDC-appen med 14.000 månedligt aktive brugere.">
+  <meta property="og:title" content="Jacob F. Welin · Senior App Developer">
+  <meta property="og:description" content="Apps der bliver brugt — fra første streg i designet til release i produktion. Mit EDC: 14.000 MAU · 45.000+ downloads · 4,5★.">
+  <!-- TODO: erstat med genereret OG-billede (se gemini-prompts.md) -->
+  <meta property="og:image" content="assets/img/mit-edc-hjem.jpg">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230D2B32'/><text x='50' y='68' font-size='52' font-family='Archivo,Arial,sans-serif' font-weight='800' fill='%234FA3B2' text-anchor='middle'>JW</text></svg>">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Spring til indhold</a>
+
+  <!-- ======================= NAV ======================= -->
+  <header class="nav" id="top">
+    <nav class="nav__inner" aria-label="Hovednavigation">
+      <a class="nav__logo" href="#top" aria-label="Til toppen">JW<span>.</span></a>
+      <button class="nav__burger" aria-expanded="false" aria-controls="nav-links" aria-label="Åbn menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav__links" id="nav-links">
+        <a href="#mit-edc">Mit EDC</a>
+        <a href="#portefolje">Portefølje</a>
+        <a href="#om">Om mig</a>
+        <a href="#erfaring">Erfaring</a>
+        <a href="#kompetencer">Kompetencer</a>
+        <a href="#kontakt">Kontakt</a>
+        <a class="btn btn--small btn--outline" href="https://www.linkedin.com/in/jacob-welin" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ======================= HERO ======================= -->
+    <section class="hero" id="hero" aria-label="Intro">
+      <canvas class="hero__canvas" id="bg-canvas" aria-hidden="true"></canvas>
+      <div class="hero__glow" aria-hidden="true"></div>
+
+      <div class="hero__inner">
+        <div class="hero__text">
+          <p class="eyebrow" data-hero>Senior App Developer · EDC-gruppen</p>
+          <h1 class="hero__name">
+            <span class="hero__line" data-hero>Jacob</span>
+            <span class="hero__line hero__line--accent" data-hero>F. Welin</span>
+          </h1>
+          <p class="hero__tagline" data-hero>
+            Jeg bygger apps, der bliver brugt — fra første streg i designet
+            til release i produktion. App, backend, database og AI-tooling.
+          </p>
+
+          <div class="hero__stats" data-hero>
+            <div class="stat">
+              <span class="stat__num" data-count="14000" data-format="da">0</span>
+              <span class="stat__lbl">Månedligt aktive brugere</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num" data-count="45000" data-format="da" data-suffix="+">0</span>
+              <span class="stat__lbl">App-downloads</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num" data-count="4.5" data-format="decimal" data-suffix=" ★">0</span>
+              <span class="stat__lbl">App Store &amp; Google Play</span>
+            </div>
+          </div>
+
+          <div class="hero__cta" data-hero>
+            <a class="btn btn--primary" href="#portefolje">Se portefølje</a>
+            <a class="btn btn--outline" href="#kontakt">Kontakt</a>
+            <div class="hero__social">
+              <a href="https://github.com/jaco2716" aria-label="GitHub" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.17c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.75 2.69 1.25 3.34.95.1-.74.4-1.25.72-1.53-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.25 5.67.41.35.77 1.05.77 2.12v3.14c0 .31.21.66.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+              </a>
+              <a href="https://www.linkedin.com/in/jacob-welin" aria-label="LinkedIn" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.55V9h3.57v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.72v20.55C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.72C24 .77 23.2 0 22.22 0Z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Midlertidig pladsholder: erstattes af Jacobs hero-billede (se gemini-prompts.md) -->
+        <div class="hero__portrait" data-hero>
+          <div class="portrait-placeholder" role="img" aria-label="Pladsholder til portrætbillede af Jacob F. Welin">
+            <svg viewBox="0 0 24 24" width="56" height="56" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true">
+              <circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6.5 8-6.5s8 2.5 8 6.5"/>
+            </svg>
+            <p class="portrait-placeholder__label">Hero-billede på vej</p>
+            <p class="portrait-placeholder__hint">Midlertidig pladsholder<br>— se gemini-prompts.md</p>
+          </div>
+        </div>
+      </div>
+
+      <a class="hero__scroll" href="#mit-edc" aria-label="Scroll ned til Mit EDC">
+        <span class="hero__scroll-line" aria-hidden="true"></span>
+        Scroll
+      </a>
+    </section>
+
+    <!-- ======================= MIT EDC ======================= -->
+    <section class="section section--edc" id="mit-edc" aria-labelledby="mit-edc-title">
+      <div class="section__inner">
+        <p class="section__kicker" data-reveal>Flagskibs-case</p>
+        <h2 class="section__title" id="mit-edc-title" data-reveal>Mit EDC</h2>
+        <div class="edc__lead" data-reveal>
+          <p>
+            Kunde-appen hos <strong>Danmarks største ejendomsmæglerkæde</strong>. Jeg har været
+            med fra projektstart til første release — og har siden som soloudvikler haft
+            <strong>100&nbsp;% produktansvar</strong> for hele produktet: frontend, backend,
+            releases og pipelines. Hver eneste feature-release er ført i mål af mig.
+          </p>
+          <p>
+            Boligsager, push-notifikationer, flytteplan, fordelsunivers, markedsudvikling,
+            dokumenter og salgsplan — stærkt datadrevet med segmenterede oplevelser pr.
+            kundegruppe, bygget oven på EDC's landsdækkende database over hele det danske
+            boligmarked.
+          </p>
+        </div>
+
+        <div class="edc__stats" data-reveal>
+          <div class="stat-card">
+            <span class="stat-card__num" data-count="14000" data-format="da">0</span>
+            <span class="stat-card__lbl">Månedligt aktive brugere</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__num" data-count="45000" data-format="da" data-suffix="+">0</span>
+            <span class="stat-card__lbl">Downloads</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__num" data-count="4.5" data-format="decimal" data-suffix=" ★">0</span>
+            <span class="stat-card__lbl">Rating · 850+ reviews</span>
+          </div>
+        </div>
+
+        <ul class="edc__tags" data-reveal aria-label="Teknologier">
+          <li>React Native / Expo</li><li>TypeScript</li><li>.NET BFF</li>
+          <li>SQL Server — designet fra bunden</li><li>PostHog + AI-analyse</li><li>CI/CD</li>
+        </ul>
+      </div>
+
+      <div class="edc__strip-wrap" data-reveal>
+        <ul class="edc__strip" id="edc-strip" aria-label="Screenshots fra Mit EDC-appen">
+          <li><img src="assets/img/mit-edc-hjem.jpg" alt="Mit EDC — forsiden med boligsag, værktøjer og indsigter" loading="lazy" width="700" height="1521"></li>
+          <li><img src="assets/img/mit-edc-sagsforloeb.jpg" alt="Mit EDC — sagsforløbet med de næste skridt i salget" loading="lazy" width="700" height="1521"></li>
+          <li><img src="assets/img/mit-edc-aktiviteter.jpg" alt="Mit EDC — åbent hus og fremvisninger" loading="lazy" width="700" height="1521"></li>
+          <li><img src="assets/img/mit-edc-annoncering.jpg" alt="Mit EDC — annoncering med sagsvisninger og nøgletal" loading="lazy" width="700" height="1521"></li>
+          <li><img src="assets/img/mit-edc-tjekliste.jpg" alt="Mit EDC — tjeklisten med praktiske gøremål ved flytning" loading="lazy" width="700" height="1521"></li>
+          <li><img src="assets/img/mit-edc-marked.jpg" alt="Mit EDC — markedsudvikling med kvadratmeterpriser over 10 år" loading="lazy" width="700" height="1521"></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ======================= PORTEFØLJE ======================= -->
+    <section class="section" id="portefolje" aria-labelledby="portefolje-title">
+      <div class="section__inner">
+        <p class="section__kicker" data-reveal>Wejeo ApS · 2020–2023</p>
+        <h2 class="section__title" id="portefolje-title" data-reveal>Portefølje</h2>
+        <p class="section__lead" data-reveal>
+          Apps jeg har bygget i min egen virksomhed — fra idé og design til udvikling,
+          test og release i produktion.
+        </p>
+
+        <div class="grid" id="project-grid">
+
+          <article class="card" data-reveal data-lightbox="camino">
+            <div class="card__media card__media--placeholder">
+              <img src="assets/img/camino-icon.png" alt="" width="120" height="120" loading="lazy">
+              <span class="card__badge">Billede genereres — se gemini-prompts.md</span>
+            </div>
+            <div class="card__body">
+              <h3>Camino Nomad</h3>
+              <p>Vejvisnings-app til vandrere på caminoruterne: 9 ruter med detaljeret
+                 Google Maps-integration, hoteller og faciliteter direkte på kortet,
+                 elevation-tracking og visuel progression undervejs.</p>
+              <ul class="card__tags"><li>React Native</li><li>Google Maps</li></ul>
+            </div>
+          </article>
+
+          <article class="card" data-reveal data-lightbox="profcal">
+            <div class="card__media">
+              <img src="assets/img/profcal-card.jpg" alt="ProfCalculator — profitberegner til restauranter" loading="lazy" width="500" height="500">
+            </div>
+            <div class="card__body">
+              <h3>ProfCalculator</h3>
+              <p>Profitberegner til restauranter — ingredienser, menuer, moms og timeløn
+                 regnes om til præcis profit pr. ret.</p>
+              <ul class="card__tags"><li>iOS &amp; Android</li><li>App Store &amp; Google Play</li></ul>
+            </div>
+          </article>
+
+          <article class="card" data-reveal data-lightbox="walldodge">
+            <div class="card__media">
+              <img src="assets/img/walldodge-card.jpg" alt="Wall Dodge — mobilspil, Rotate to Win" loading="lazy" width="500" height="500">
+            </div>
+            <div class="card__body">
+              <h3>Wall Dodge</h3>
+              <p>Mobilspil: rotér figuren og undvig væggene — "Rotate to Win".
+                 Udgivet til både iOS og Android.</p>
+              <ul class="card__tags"><li>Spil</li><li>iOS &amp; Android</li></ul>
+            </div>
+          </article>
+
+          <article class="card" data-reveal data-lightbox="leoswok">
+            <div class="card__media">
+              <img src="assets/img/leoswok-card.jpg" alt="Leo's Wok — madbestillingssystem" loading="lazy" width="500" height="500">
+            </div>
+            <div class="card__body">
+              <h3>Leo's Wok</h3>
+              <p>Komplet madbestillingssystem til restaurant — digital menu, kurv og
+                 ordrestyring direkte fra gæstens telefon.</p>
+              <ul class="card__tags"><li>Bestillingssystem</li><li>Mobil</li></ul>
+            </div>
+          </article>
+
+          <article class="card" data-reveal data-lightbox="chiangmai">
+            <div class="card__media">
+              <img src="assets/img/chiangmai-card.jpg" alt="Chiang Mai Køge — app til thairestaurant" loading="lazy" width="500" height="500">
+            </div>
+            <div class="card__body">
+              <h3>Chiang Mai Køge</h3>
+              <p>App til thairestauranten Chiang Mai i Køge — menu, information og
+                 bestilling til iOS og Android.</p>
+              <ul class="card__tags"><li>Restaurant-app</li><li>iOS &amp; Android</li></ul>
+            </div>
+          </article>
+
+          <article class="card" data-reveal data-lightbox="wejeosmart">
+            <div class="card__media">
+              <img src="assets/img/wejeosmart-card.jpg" alt="Wejeo Smart — smart home-app" loading="lazy" width="500" height="500">
+            </div>
+            <div class="card__body">
+              <h3>Wejeo Smart</h3>
+              <p>Smart home-app til Wejeos smart-stik — styring af enheder,
+                 tidsplaner og automatisering i hjemmet.</p>
+              <ul class="card__tags"><li>Smart home</li><li>IoT</li></ul>
+            </div>
+          </article>
+
+          <article class="card" data-reveal data-lightbox="sejerslev">
+            <div class="card__media">
+              <img src="assets/img/sejerslev-card.jpg" alt="Sejerslev — AI-drevet svejseapp" loading="lazy" width="500" height="500">
+            </div>
+            <div class="card__body">
+              <h3>Sejerslev</h3>
+              <p>AI-drevet svejseapp — live-overvågning af gasflow, tryk og temperatur
+                 fra svejseudstyret, med grafer og historik.</p>
+              <ul class="card__tags"><li>AI</li><li>Hardware-integration</li></ul>
+            </div>
+          </article>
+
+          <article class="card" data-reveal data-lightbox="abone">
+            <div class="card__media">
+              <img src="assets/img/abone-card.jpg" alt="AB one — app til erhvervsnetværk" loading="lazy" width="500" height="500">
+            </div>
+            <div class="card__body">
+              <h3>AB one</h3>
+              <p>Medlemsapp til erhvervsnetværk — profil, medlemmer, møder og tracking
+                 af omsætning og anbefalinger.</p>
+              <ul class="card__tags"><li>Erhvervsnetværk</li><li>Mobil</li></ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= OM MIG ======================= -->
+    <section class="section section--tint" id="om" aria-labelledby="om-title">
+      <div class="section__inner about">
+        <div class="about__photo" data-reveal>
+          <img src="assets/img/profil-jacob.jpg" alt="Portrætfoto af Jacob F. Welin" width="400" height="400" loading="lazy">
+        </div>
+        <div class="about__text">
+          <p class="section__kicker" data-reveal>Om mig</p>
+          <h2 class="section__title" id="om-title" data-reveal>Fra idé til release<br>— hele vejen</h2>
+          <div data-reveal>
+            <p>
+              Jeg er Senior App Developer i EDC-gruppen med ca. 8 års IT-erfaring. Jeg ejer
+              opgaver i hele kæden — React Native-app, .NET-services, SQL
+              Server-databasedesign og CI/CD — og er drivkraft på AI-assisteret udvikling
+              med Claude Code, agents, MCP og browser-automatisering.
+            </p>
+            <p>
+              I december 2025 blev jeg forfremmet til senior, og jeg har fået
+              ledelseserfaring gennem rekruttering, delvist lederskab og oplæring af en ny
+              udvikler, understøttet af et mentorforløb hos min nærmeste leder. Inden EDC
+              drev jeg min egen virksomhed, Wejeo ApS, i tre år — så jeg er vant til at tage
+              en idé hele vejen fra design til release i produktion, med stor interesse for
+              UI/UX.
+            </p>
+            <p class="about__facts">
+              Datamatiker fra Zealand · Medstifter af Wejeo ApS (2020–2023) ·
+              Medlem af Mensa — IQ 135, top 2&nbsp;%
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= ERFARING ======================= -->
+    <section class="section" id="erfaring" aria-labelledby="erfaring-title">
+      <div class="section__inner">
+        <p class="section__kicker" data-reveal>Karriere</p>
+        <h2 class="section__title" id="erfaring-title" data-reveal>Erfaring</h2>
+
+        <ol class="timeline">
+          <li class="timeline__item" data-reveal>
+            <div class="timeline__period">dec 2025 – nu</div>
+            <div class="timeline__body">
+              <h3>Senior App Developer · <span>EDC-gruppen a/s</span></h3>
+              <p>Forfremmet til senior. Fullstack på Mit EDC og hele appens backend-kæde —
+                 CustomerSystemsAPI (.NET BFF), REST.Core &amp; EDC.Core og
+                 CustomerSystems-databasen, som jeg designede fra bunden. Driver AI-assisteret
+                 udvikling: byggede EDC's interne Claude Code plugin-marketplace, MCP-servere
+                 og Playwright-automatisering.</p>
+            </div>
+          </li>
+          <li class="timeline__item" data-reveal>
+            <div class="timeline__period">feb 2024 – dec 2025</div>
+            <div class="timeline__body">
+              <h3>App Developer · <span>EDC-gruppen a/s</span></h3>
+              <p>Med fra projektstart og første release af Mit EDC — derefter soloudvikler
+                 med 100&nbsp;% ansvar for frontend, backend, releases og pipelines.
+                 Implementerede PostHog og bruger AI til at analysere brugeradfærd, så appen
+                 forbedres på baggrund af data frem for gæt.</p>
+            </div>
+          </li>
+          <li class="timeline__item" data-reveal>
+            <div class="timeline__period">okt 2020 – sep 2023</div>
+            <div class="timeline__body">
+              <h3>Medstifter &amp; Udvikler · <span>Wejeo ApS</span></h3>
+              <p>Egen iværksættervirksomhed: mobil- og webapplikationer for kunder — fra idé,
+                 design og projektstruktur til udvikling, test og release. Kundehåndtering og
+                 projektstyring sideløbende med udviklingen.</p>
+            </div>
+          </li>
+          <li class="timeline__item" data-reveal>
+            <div class="timeline__period">2018 – 2021</div>
+            <div class="timeline__body">
+              <h3>Datamatiker · <span>Zealand – Sjællands Erhvervsakademi</span></h3>
+              <p>Uddannet datamatiker med fokus på softwareudvikling.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ======================= KOMPETENCER ======================= -->
+    <section class="section section--tint" id="kompetencer" aria-labelledby="kompetencer-title">
+      <div class="section__inner">
+        <p class="section__kicker" data-reveal>Værktøjskassen</p>
+        <h2 class="section__title" id="kompetencer-title" data-reveal>Kompetencer</h2>
+
+        <div class="skills">
+          <div class="skill" data-reveal>
+            <h3>App-udvikling</h3>
+            <ul class="tags">
+              <li class="hot">React Native</li><li class="hot">Expo</li><li class="hot">TypeScript</li>
+              <li>React</li><li>MobX-State-Tree</li><li>Reanimated</li><li>Jest</li><li>iOS &amp; Android</li>
+            </ul>
+          </div>
+          <div class="skill skill--featured" data-reveal>
+            <h3>AI &amp; automatisering</h3>
+            <ul class="tags">
+              <li class="hot">Claude Code</li><li class="hot">MCP</li><li>Skills &amp; plugins</li>
+              <li>Agents &amp; hooks</li><li>Playwright</li><li>PostHog</li><li>Power Automate</li>
+            </ul>
+          </div>
+          <div class="skill" data-reveal>
+            <h3>Backend</h3>
+            <ul class="tags">
+              <li class="hot">.NET / C#</li><li>REST API'er</li><li>BFF-arkitektur</li><li>Auth / token-rotation</li>
+            </ul>
+          </div>
+          <div class="skill" data-reveal>
+            <h3>Database</h3>
+            <ul class="tags">
+              <li class="hot">SQL Server</li><li>T-SQL</li><li>Databasedesign</li>
+              <li>Events / triggers</li><li>Views &amp; stored procedures</li>
+            </ul>
+          </div>
+          <div class="skill" data-reveal>
+            <h3>DevOps &amp; værktøj</h3>
+            <ul class="tags">
+              <li>Azure DevOps</li><li>Git</li><li>CI/CD</li><li>az CLI</li>
+            </ul>
+          </div>
+          <div class="skill" data-reveal>
+            <h3>Øvrigt</h3>
+            <ul class="tags">
+              <li>Flutter / Dart</li><li>Swift · Kotlin · Java</li><li>HTML / CSS</li><li>UI/UX-design</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= KONTAKT ======================= -->
+    <section class="section section--contact" id="kontakt" aria-labelledby="kontakt-title">
+      <div class="section__inner">
+        <p class="section__kicker" data-reveal>Kontakt</p>
+        <h2 class="section__title section__title--big" id="kontakt-title" data-reveal>Lad os tales ved</h2>
+        <p class="section__lead" data-reveal>
+          Har du et projekt, en stilling eller bare et godt spørgsmål?
+          Fang mig på LinkedIn.
+        </p>
+        <div class="contact__actions" data-reveal>
+          <a class="btn btn--primary btn--big" href="https://www.linkedin.com/in/jacob-welin" target="_blank" rel="noopener">Skriv på LinkedIn</a>
+          <a class="btn btn--outline btn--big" href="https://github.com/jaco2716" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year">2026</span> Jacob F. Welin · Roskilde, Danmark</p>
+    <p class="footer__note">Bygget i hånden — HTML, CSS &amp; vanilla JS. Ingen frameworks, intet build-step.</p>
+  </footer>
+
+  <!-- ======================= LIGHTBOX ======================= -->
+  <dialog class="lightbox" id="lightbox" aria-label="Projektdetaljer">
+    <button class="lightbox__close" id="lightbox-close" aria-label="Luk">×</button>
+    <figure>
+      <img id="lightbox-img" src="" alt="">
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure>
+  </dialog>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

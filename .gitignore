@@ -1,0 +1,10 @@
+.DS_Store
+*.psd
+*.log
+node_modules/
+
+# Private/local-only files — must never be committed (contact info / internal notes)
+PLAN.md
+CLAUDE.md
+assets/cv-jacob-welin.pdf
+.playwright-mcp/
